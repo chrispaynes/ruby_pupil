@@ -1,0 +1,32 @@
+<!-- START PRINTCUBE GALLERY -->
+<section class="sect">
+    <div class="sect_title">What have I developed?</div>
+    <ul class="sect_port-web">
+        {{#each model as |web|}}
+            <li class="port_item-web">
+                {{#if web.img}}
+                <a title="{{web.title}}">
+                    <img {{action "toggleDetails"}} class="port_img-web" src="/img/{{web.img}}" alt="Photo of {{web.title}}"></a>
+                    <figcaption class="port_caption">{{web.title}}</figcaption>
+                  {{else}}
+                  <figcaption {{action "toggleDetails"}} class="port_caption">{{web.title}}</figcaption>
+                  {{/if}}
+                <article>
+                    {{#if showDetails}}
+                        <li class="port_para-hdr">The Challenge</li>
+                        <li class="port_para">{{web.challenge}}</li>
+                        <li class="port_para-hdr">The Solution</li>
+                        <li class="port_para">{{web.solution}}</li>
+                        <li class="port_para-ftr">Visit The Site</li>
+                        <li class="port_para-web">
+                            <a href="{{web.sitelink}}">{{web.sitelink}}</a>
+                        </li>
+                    {{/if}}
+                </article>
+            </li>
+        {{/each}}
+    </ul>
+  {{partial "footer-dark"}}
+</section>
+
+{{outlet}}

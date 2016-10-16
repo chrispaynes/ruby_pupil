@@ -1,0 +1,28 @@
+<!-- THIS IS ESSENTIALLY THE HOMEPAGE -->
+
+<!-- TEST START PRINTCUBE GALLERY -->
+<section class="sect">
+    <div class="sect_title">What have I designed?</div>
+    <ul class="sect_port-print">
+        {{#each model as |m|}}
+
+            <li class="port_item-print" id="{{m.id}}">
+                <a title="{{m.challenge}} {{m.solution}}">
+                    <img {{action "toggleDetails"}} class="port_img-print" src="/img/{{m.img}}.jpg" alt="{{m.challenge}} {{m.solution}}"></a>
+                <figcaption class="port_caption-print">{{m.title}}</figcaption>
+            </li>
+
+            {{#if showDetails}}
+                <article id="{{m.id}}" class="port_item-article-active">
+                    <li class="port_para-hdr">The Challenge</li>
+                    <li class="port_para">{{m.challenge}}</li>
+                    <li class="port_para-hdr">The Solution</li>
+                    <li class="port_para">{{m.solution}}</li>
+                </article>
+            {{/if}}
+
+        {{/each}}
+    </ul>
+    {{partial "footer-dark"}}
+</section>
+{{outlet}}

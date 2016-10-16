@@ -1,0 +1,102 @@
+/*************************************
+GLOBALBASE
+**************************************/
+a,
+b,
+body,
+div,
+figcaption,
+footer,
+h1,
+h2,
+h3,
+header,
+hr,
+html,
+img,
+li,
+nav,
+p,
+section,
+ul {
+    font-weight: 300;
+    color: rgb(160,160,160);
+    font-family: jaf-bernina-sans,Helvetica,sans-serif;
+    font-size: 1em;
+    line-height: 125%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    padding: 7rem 0 0;
+}
+@media screen and (min-width:801px) and (max-width:1100px) {
+    body {
+        padding: 17rem 0 0;
+    }
+}
+@media screen and (min-width:0) and (max-width:800px) {
+    body {
+        padding: 0;
+    }
+}
+
+a {
+    line-height: 1em;
+    font-family: "maven pro",sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    transition-property: color;
+    transition-duration: 0.25s;
+}
+
+a:active,
+a:focus,
+a:hover {
+    color: #5f9ea0;
+    text-decoration: none;
+}
+
+[data-ember-action] {
+    cursor: pointer;
+}
+
+p {
+    font-size: 1em;
+    margin: 0 0 3em;
+    text-align: left;
+    line-height: 1.75em;
+    font-family: ff-tisa-web-pro, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: normal;
+    color: rgb(75,75,75);
+}
+
+.port_item-article-inactive {
+    display: none;
+}
+
+.port_item-article-active {
+    flex: 1 0 calc(45%);
+    display: inline-block;
+}
+@media screen and (min-width:0px) and (max-width:960px) {
+    .port_item-article-active {
+        flex: auto;
+        margin: 4% 2%;
+        text-align: center;
+    }
+}
+@media screen and (min-width:961px) and (max-width:9999px) {
+    .port_item-article-active {
+        flex: 1 0 calc(62%);
+        margin: 4% 2%;
+        text-align: left;
+    }
+}

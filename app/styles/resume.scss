@@ -1,0 +1,35 @@
+/*************************************
+ABOUT PAGE
+**************************************/
+.sect_resume {
+    padding: 4% 0;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(95, 158, 160);
+}
+
+.sect_list {
+    padding: 5% 10%;
+}
+
+.resume_article {
+    border: 2px solid white;
+    margin-bottom: 4em;
+    padding: 2em 10%;
+}
+
+.resume_para-hdr {
+    font-family: jaf-bernina-sans,Helvetica,sans-serif;
+    font-size: 275%;
+    line-height: 100%;
+    margin: 0 0 0.5em;
+    color: #15283f;
+    font-weight: 700;
+}
+
+.resume_para {
+    line-height: 150%;
+    letter-spacing: 1px;
+    color: #fff;
+    word-break: keep-all;
+}

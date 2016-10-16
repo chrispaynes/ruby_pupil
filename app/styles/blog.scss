@@ -1,0 +1,152 @@
+/*************************************
+BLOG
+**************************************/
+.sect_blog {
+    padding: 4% 0;
+    align-items: center;
+    background-color: #fff;
+}
+
+.blog_article {
+    text-align: left;
+    width: 45rem;
+    margin: 0 auto 150px;
+}
+@media screen and (min-width:0px) and (max-width:801px) {
+    .blog_article {
+        width: 75%;
+    }
+}
+
+.sect_title-blog {
+    font-size: 4em;
+    font-family: jaf-bernina-sans,Helvetica,sans-serif;
+    color: darkred;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1em;
+    padding-top: 0 4%;
+}
+
+.blog_list-hdr {
+    font-size: 2.25em;
+    margin: 1rem 0;
+    color: #15283f;
+    font-family: jaf-bernina-sans,Helvetica,sans-serif;
+    line-height: 100%;
+}
+
+.blog_list-link {
+    line-height: 1.5em;
+    border-top: 1px solid #e7e8e9;
+    padding: 5% 2.5%;
+}
+
+.blog_list-link:first-child {
+    margin-top: 1em;
+}
+
+.blog_list-link:hover {
+    background-color: rgba(95,158,160,0.5);
+}
+
+.blog_byline {
+    display: block;
+    font-family: ff-tisa-web-pro,Georgia,Times,'Times New Roman',serif;
+    font-style: italic;
+    margin-bottom: 4em;
+    padding-bottom: 0.75em;
+    border-bottom: solid #5f9ea0 0.125rem;
+    margin: 0.5em 0 4em;
+}
+
+.blog_title-byline {
+    text-align: center;
+    display: block;
+    font-family: ff-tisa-web-pro,Georgia,Times,'Times New Roman',serif;
+    font-style: italic;
+    margin-bottom: 1em;
+    padding-bottom: 1.5em;
+    border-bottom: solid #5f9ea0 0.125rem;
+}
+
+.blog_para {
+    font-size: 1.25rem;
+    font-family: "maven pro";
+    width: 100%;
+    margin: 0 0 8em;
+    text-align: left;
+    line-height: 2.375rem;
+    border-bottom: solid #5f9ea0 0.125rem;
+}
+
+.blog_about-text {
+    font-size: 100%;
+    line-height: 150%;
+    color: #5f9ea0;
+    padding: 5%;
+    color: gray;
+    font-family: jaf-bernina-sans,Helvetica,sans-serif;
+}
+
+.sect_blog-wrapper {
+    width: auto;
+    margin: 0 auto;
+}
+
+.blog_post-id {
+    font-family: ff-tisa-web-pro,Georgia,Times,'Times New Roman',serif;
+    font-size: 2em;
+    color: #15283f;
+}
+
+.blog_title-listing {
+    font-family: jaf-bernina-sans,Helvetica,sans-serif;
+}
+
+.blog_title-subtitle {
+    text-align: center;
+    display: block;
+    font-size: 112%;
+    margin: 0.5em 0;
+    line-height: 150%;
+    color: #15283f;
+}
+
+.blog_title-byline {
+    text-align: center;
+    display: block;
+    font-family: ff-tisa-web-pro,Georgia,Times,'Times New Roman',serif;
+    font-style: italic;
+    font-size: 100%;
+    margin-bottom: 1em;
+}
+/*blog intro paragraph*/
+h1 {
+    margin: 0 0 3em;
+    font-size: 112%;
+    font-family: jaf-bernina-sans,Helvetica,sans-serif;
+    line-height: 125%;
+    color: #5F9EA0;
+    padding: 0 5%;
+}
+
+.blog_post-title {
+    font-family: ff-tisa-web-pro,Georgia,Times,"Times New Roman",serif;
+    text-align: center;
+    line-height: 195%;
+    color: #fff;
+    padding: 0 0 1%;
+    background: #5f9ea0;
+    font-weight: 200;
+    font-size: 3em;
+    letter-spacing: 0.5px;
+    box-decoration-break: clone;
+    box-shadow: -10px 0 0 #5f9ea0, 10px 0 0 #5f9ea0;
+    position: relative;
+    left: 10px;
+}
+
+.col-md-3 {
+    border-left: 1px solid #E8E9E9;
+}

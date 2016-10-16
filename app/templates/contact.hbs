@@ -1,0 +1,38 @@
+<section class="sect sect_contact">
+	<div class="sect_title sect_title-white">How do you contact me?</div>
+	<div class="sect_form-contact">
+		<form>
+			<div>
+				<li class="contact-form_label">Company Name</li>
+				<input class="contact_input" type="text" name="name" placeholder="Your Company">
+			</div>
+
+			<div>
+				<li class="contact-form_label">Name</li>
+				<input class="contact_input" type="text" name="name" placeholder="Your First and Last Name">
+			</div>
+			<div>
+				<li class="contact-form_label">Phone Number</li>
+				<input class="contact_input" type="text" name="lastname" placeholder="(123)-123-1234">
+			</div>
+			<div>
+				<li class="contact-form_label">Email</li>
+				<input class="contact_input" type="text" name="lastname" placeholder="youremail@email.com">
+			</div>
+
+			<div>
+				<li class="contact-form_label">Reason</li>
+				<input class="contact_input" type="text" name="lastname" placeholder="I'm contacting you because I would like...">
+			</div>
+			<input class="contact_submit" type="submit" value="SUBMIT">
+		</form>
+	</div>
+
+	<article class="contact_article">
+		<li class="contact_para-hdr">{{about.title}}</li>
+		<li class="contact_para">{{about.skill}}</li>
+	</article>
+	{{partial "footer-light"}}
+</section>
+
+{{outlet}}

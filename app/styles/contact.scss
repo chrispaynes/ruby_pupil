@@ -1,0 +1,73 @@
+/*************************************
+CONTACT SECTION
+**************************************/
+.sect_contact {
+    padding: 4% 0;
+    background-color: #15283f;
+}
+
+.sect_list {
+    padding: 5% 10%;
+}
+
+.contact_article {
+    margin-bottom: 4em;
+    padding: 4em 10%;
+}
+
+.contact_para-hdr {
+    font-family: jaf-bernina-sans,Helvetica,sans-serif;
+    font-size: 2.75em;
+    line-height: 1em;
+    margin: 0 0 0.5em;
+    color: #fff;
+}
+
+.contact_para {
+    line-height: 1.5em;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.contact_input {
+    border-width: 0.125em;
+    font-size: 1.5em;
+    border-style: none none solid;
+    border-color: #5f9ea0;
+    border-radius: 0;
+    background: 0 0;
+    font-family: ff-tisa-web-pro,Georgia,Times,'Times New Roman',serif;
+    color: #5f9ea0;
+    width: 32rem;
+    margin: 1em 0 1.5em;
+    text-align: left;
+}
+
+.contact-form_label {
+    text-align: left;
+    margin: 0 0 -1em;
+    color: #fff;
+    font-weight: 700;
+    font-family: ff-tisa-web-pro,Georgia,Times,'Times New Roman',serif;
+    letter-spacing: 2px;
+    font-size: 1.15em;
+}
+
+.sect_form-contact {
+    width: 32rem;
+    margin: 0 auto;
+}
+
+.contact_submit {
+    padding: 0.25em;
+    border-width: 0.125em;
+    font-size: 2em;
+    border-style: solid;
+    border-color: rgb(95, 158, 160);
+    border-radius: 1.12rem;
+    background: rgb(95, 158, 160);
+    color: #fff;
+    width: 32rem;
+    margin: 1.5em 0;
+    font-weight: 700;
+}

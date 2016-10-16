@@ -1,0 +1,10 @@
+<section class="sect sect-resume">
+    <div class="sect_title sect_title-blue">What's my experience?</div>
+    {{#each model as |resume| }}
+        <article class="resume_article">
+            <li {{action "toggleDetails"}} class="resume_para-hdr">{{resume.title}}</li>
+            <li class="resume_para">{{{resume.skill}}}</li>
+        </article>
+    {{/each}}
+    {{partial "footer-light"}}
+</section>
